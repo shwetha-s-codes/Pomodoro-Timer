@@ -1,0 +1,54 @@
+h1{
+     background-color: rgb(245, 209, 143);
+     text-align: center;
+     color:whitesmoke;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+
+}
+
+.container {
+       position: relative;
+   }
+   img{
+          width: 100%;
+   }
+   
+   h2 {
+       position:absolute;
+       top:50%;
+       left: 20%;
+       right: 70%;
+       transform: translate(-50%, -50%);
+       color: whitesmoke; 
+       font-size: 50px;
+       font-weight: bold; 
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       text-align: left;
+   }
+   
+#btn{
+       margin-top:10px ;
+       border:15px ;
+       padding: 20px ;
+       color:whitesmoke;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-weight: bold;
+       background-color: orange;
+       animation: bounce 0.5s infinite alternate;
+}
+            
+ @keyframes bounce {
+              0% {
+                transform: translateY(0);
+              }
+              100% {
+                transform: translateY(-10px);
+              }
+            }
+            
+
+#btn:hover{
+             background-color:orangered ;
+            
+}
